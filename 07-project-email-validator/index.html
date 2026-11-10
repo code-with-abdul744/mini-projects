@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lets Validate together</title>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <div class="title">
+            <h1 id="heading-title">Lets validate ;)</h1>
+            <p id="heading-paragraph">Enter your Email and password to validate</p>
+        </div>
+
+        <div class="container">
+
+            <div class="inner-container">
+
+                <form id="input-form">
+
+                    <label for="email-input">Email Address*</label>
+                    <input type="text" required id="email-input" placeholder="example@gmail.com">
+                    <p id="email-error" class="error"></p>
+
+                    <label for="password-input">Password*</label>
+                    <input type="text" id="password-input" placeholder="----------" required>
+                    <p id="password-error" class="error" ></p>
+
+                    <button id="validate-btn">Validate</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
